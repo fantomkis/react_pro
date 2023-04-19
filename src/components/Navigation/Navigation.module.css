@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 }
-.home {
+.btn {
   text-decoration: none;
   margin-right: 50px;
   width: 100px;
@@ -16,6 +16,8 @@
   text-align: center;
   border-radius: 10px;
   padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .friends {
   text-decoration: none;

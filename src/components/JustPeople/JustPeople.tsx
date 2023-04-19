@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 const JustPeople = () => {
     return (
         <div>
-            
+            <h1>JustPeople</h1>
         </div>
     );
 };
