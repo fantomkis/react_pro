@@ -9,11 +9,13 @@ import CloseFriends from './CloseFriends/CloseFriends';
 import JustPeople from './JustPeople/JustPeople';
 import Footer from './Footer/Footer';
 import Header from './Header.tsx/Header';
+import s from './App.module.css';
 
 function App() {
   return (
     <>
-    <Header/>
+      <Header />
+      <div className={s.wrap} >
       <Sidebar/>
       
       <main>
@@ -24,7 +26,8 @@ function App() {
           <Route path='/closefr' element={<CloseFriends />} />
             <Route path='/justpeple' element={<JustPeople />} />
         </Routes>
-      </main>
+        </main>
+        </div>
       <Footer/>
 
       </>
