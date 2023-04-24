@@ -16,9 +16,10 @@ function App() {
     <>
       <Header />
       <div className={s.wrap} >
-      <Sidebar/>
+   
       
-      <main>
+        <main>
+          <Sidebar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/friends' element={<Friends />} />
