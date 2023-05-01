@@ -1,14 +1,14 @@
 .header {
-  height: 100px;
+  height: 50px;
   background-color: rgb(246, 247, 249);
-  margin-top: -30px;
+  /* margin-top: -30px; */
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid rgb(159, 159, 159);
 
   width: 100%;
-  padding: 20px 100px;
+  padding: 5px 100px;
 }
 
 .title {
