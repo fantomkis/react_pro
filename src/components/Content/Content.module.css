@@ -1,0 +1,5 @@
+.content {
+  overflow-x: auto;
+  max-width: calc(100vw - 150px);
+  height: calc(100vh - 120px);
+}
