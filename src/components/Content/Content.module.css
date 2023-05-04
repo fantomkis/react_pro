@@ -1,6 +1,6 @@
 .content {
   overflow-x: auto;
-  max-width: calc(100vw - 150px);
+  max-width: calc(100vw - 200px);
   height: calc(100vh - 120px);
   padding: 40px;
 }
