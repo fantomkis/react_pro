@@ -2,7 +2,7 @@
 import Content from '../Content/Content';
 import Sidebar from '../Sidebar/Sidebar';
 
-import s from './Main.module.css';
+import s from './Main.module.scss';
 
 function Main() {
     return (

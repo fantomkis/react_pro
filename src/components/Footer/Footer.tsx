@@ -1,5 +1,5 @@
 
-import s from './Footer.module.css';
+import s from './Footer.module.scss';
 import titleFooter from '../../inform';
 
 function Footer() {
