@@ -4,7 +4,7 @@ import s from "./Sidebar.module.scss";
 
 const Navigation = () => {
   return (
-    <header className={s.nav}>
+    <nav className={s.nav}>
       <NavLink to="/" className={s.btn} end>
         Home
       </NavLink>
@@ -20,7 +20,7 @@ const Navigation = () => {
           <NavLink to="justpeple" className={s.btn}>
         JustPeople
       </NavLink>
-    </header>
+    </nav>
   );
 };
 
