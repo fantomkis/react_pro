@@ -6,7 +6,7 @@ import Family from '../Family/Family';
 import CloseFriends from '../CloseFriends/CloseFriends';
 import JustPeople from '../JustPeople/JustPeople';
 import Notfound from '../Notfound/Notfound';
-import s from './Content.module.scss';
+import s from './Routes.module.scss';
 
 function Content() {
     return (
