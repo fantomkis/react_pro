@@ -2,9 +2,7 @@
   display: block;
   overflow-y: auto;
   overflow-x: hidden;
-
-  max-width: calc(100vw - 190px);
-  // width: 100%;
+  width: 100%;
   height: calc(100vh - 100px);
   padding: 40px;
 }

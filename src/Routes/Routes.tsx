@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from '../../pages/Home';
-import Friends from '../../pages/Friends/Friends';
-import Family from '../../pages/Family/Family';
-import CloseFriends from '../../pages/CloseFriends/CloseFriends';
-import JustPeople from '../../pages/JustPeople/JustPeople';
-import Notfound from '../../pages/Notfound/Notfound';
+import Home from '../pages/Home';
+import Friends from '../pages/Friends/Friends';
+import Family from '../pages/Family/Family';
+import CloseFriends from '../pages/CloseFriends/CloseFriends';
+import JustPeople from '../pages/JustPeople/JustPeople';
+import Notfound from '../pages/Notfound/Notfound';
 import s from './Routes.module.scss';
 
 function Content() {

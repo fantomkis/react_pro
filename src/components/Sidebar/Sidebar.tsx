@@ -9,16 +9,18 @@ const Navigation = () => {
         Home
       </NavLink>
       <NavLink to="friends" className={s.btn}>
-        Friends
+       <img width={40} src="https://www.svgrepo.com/show/490894/people-in-car-side-view.svg"  alt="" /> Friends
           </NavLink>
           <NavLink to="family" className={s.btn}>
-        Family
+         <img src="./1.svg" alt="" />
+        <img src="https://www.svgrepo.com/show/291852/people-teamwork.svg" alt=""  width={40}/> Family
+        <i className="fa fa-camera-retro fa-lg"></i>
           </NavLink>
           <NavLink to="closefr" className={s.btn}>
-        Close Friends
+       <img src="https://www.svgrepo.com/show/490298/push-door.svg" width={40} alt="" /> Close Friends
           </NavLink>
-          <NavLink to="justpeple" className={s.btn}>
-        JustPeople
+          <NavLink to="justpeple" className={s.btn}><img src="https://www.svgrepo.com/show/492698/people-who-support.svg" width={40} alt="" />
+       JustPeople
       </NavLink>
     </nav>
   );

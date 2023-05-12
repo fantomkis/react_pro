@@ -1,6 +1,6 @@
 
 
-import Routes from '../Routes/Routes';
+import Routes from '../../Routes/Routes';
 import Sidebar from '../Sidebar/Sidebar';
 
 import s from './Main.module.scss';
