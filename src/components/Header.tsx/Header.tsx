@@ -1,11 +1,11 @@
 
-import s from './Header.module.css';
+import s from './Header.module.scss';
 const Header = () => {
     return (
-        <div className={s.header}>
+        <header className={s.header}>
             <h1 className={s.title}>Мої знайомі люди</h1>
             
-        </div>
+        </header>
     );
 };
 

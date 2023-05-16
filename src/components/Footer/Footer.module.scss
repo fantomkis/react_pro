@@ -1,0 +1,17 @@
+@import '../../styles/color.scss';
+
+:export {
+  footerColor: $footer-color;
+}
+
+.footer {
+  background-color: $footer-color;
+  left: 0;
+  height: 50px;
+  padding: 5px 100px;
+}
+
+.title {
+  text-align: center;
+  color: --wite;
+}
